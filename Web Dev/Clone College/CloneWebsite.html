@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: Verdana, sans-serif;
+      color: #333;
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    .menu {
+      float: left;
+      width: 20%;
+      text-align: center;
+      background-color: #002147;
+      height: 100%;
+      min-height: 100vh;
+    }
+
+    .menu a, .menu span {
+      background-color: transparent;
+      padding: 12px 0;
+      margin-top: 7px;
+      display: block;
+      width: 100%;
+      color: #fff;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .menu a:hover {
+      background-color: #004080;
+    }
+
+    .main {
+      float: left;
+      width: 60%;
+      padding: 20px;
+    }
+
+    .main section {
+      margin-bottom: 40px;
+    }
+
+    .right {
+      background-color: #f2f2f2;
+      float: left;
+      width: 20%;
+      padding: 20px;
+      margin-top: 7px;
+      text-align: center;
+    }
+
+    @media only screen and (max-width: 620px) {
+      .menu, .main, .right {
+        width: 100%;
+        float: none;
+      }
+    }
+
+    .header, .footer {
+      background-color: #002147;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .header img {
+      max-width: 100px;
+      height: auto;
+      display: block;
+      margin: 0 auto 10px;
+    }
+
+    .campus-image {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      display: block;
+    }
+
+    ul { padding-left: 20px; }
+    ul li { margin-bottom: 8px; }
+
+    h2 {
+      color: #002147;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+    }
+
+    p { margin-bottom: 15px; }
+
+    .section-link {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <img src="images/logo.jpeg" alt="SSIPMT Logo">
+  <h1>SSIPMT Raipur</h1>
+  <p>Shri Shankaracharya Institute of Professional Management and Technology</p>
+</div>
+
+<!-- Campus Image -->
+<img src="images/campus.webp" alt="SSIPMT Campus" class="campus-image">
+
+<div style="overflow:auto">
+  <div class="menu">
+    <a href="#">Home</a>
+    <a href="about.html" target="_blank">About Us</a>
+    <a href="programs.html" target="_blank">Programs</a>
+    <a href="placements.html" target="_blank">Placements</a>
+    <a href="gallery.html" target="_blank">Gallery</a>
+    <a href="contact.html" target="_blank">Contact</a>
+    <a href="Attributes.html" target="_blank">Admission</a>
+  </div>
+
+  <div class="main">
+    <section>
+      <h2>Welcome to SSIPMT</h2>
+      <p>SSIPMT Raipur is one of the premier institutions in Central India imparting quality education in the field of Engineering and Management. The Institute is known for its modern infrastructure and a strong emphasis on holistic development.</p>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        SSIPMT, Raipur fosters technical and management education to develop skilled engineers and efficient managers. It is among the 49 institutes in India selected for the AICTE IDEA Lab, with high admissions, 64 patents, and 6+ startups.
+      </p>
+    </section>
+
+    <section id="programs">
+      <h2>Programs Offered</h2>
+      <p>
+        SSIPMT offers UG, PG, and Doctoral programs in engineering, technology, and management fields such as B.Tech, M.Tech, MBA, and Ph.D.
+      </p>
+    </section>
+
+    <section id="placements">
+      <h2>Placements</h2>
+      <p>
+        The 2025 batch received the highest package of ₹42 LPA from Microsoft. Companies like Zscaler, Accenture, SAP, Adobe, and HSBC are among the major recruiters.
+      </p>
+    </section>
+
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <p>Explore glimpses of our campus, events, labs, and more.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Looking to reach us or have queries? Find all the contact details in the menu.</p>
+    </section>
+  </div>
+
+  <div class="right">
+    <h2>News</h2>
+    <p>Admissions Open 2025–26. Visit the official site for more updates and registration details.</p>
+  </div>
+</div>
+
+<div class="footer">
+  © SSIPMT Raipur | All rights reserved
+</div>
+
+</body>
+</html>
